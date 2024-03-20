@@ -1,0 +1,26 @@
+*함수이름: OnBnClickedBtnCreate()
+기능: 윈도우에서 create 선택 시 MoveRect() 지정한 만큼 호출하고, 10번 이동할때 마다 Save()호출하고, 몇번 클릭했는지 확인하는 함수
+*함수이름: Start()
+기능: 윈도우에 이미지를 생성하고 출력하는 함수
+*함수이름: ValidImgPos(int x, int y)
+기능: 입력한 좌표값이 윈도우의 크기 안에 속하는지 검사하는 함수
+*함수이름: Save(int conut) 
+기능: OnBnClickedBtnCreate()에서 호출하며, 해당하는 숫자에 해당 경로로 이미지 저장하는 함수
+*함수이름: MoveRect()
+기능: 윈도우에 출력할 도형의 좌표 함수
+*함수이름: Create(unsigned char* fm, int x, int y)
+기능: MoveRect() 함수에서 호출되며 지정한 좌표의 반지름을 더해 도형을 만드는 함수
+*함수이름: Circle(int x, int y, int nCenterX, int nCenterY, int nRadius)
+기능: Create() 함수에서 호출되며 사각형 도형에서 원형이 되도록 알려주는 함수 
+
+*함수이름: OnBnClickedBtnLoad()
+기능: 윈도우에서 load 선택 시 호출되는 이벤트 함수로 저장된 사진을 가져와 윈도우에 출력하고 원을 찾아 좌표를 콘솔에 출력하는 함수
+*함수이름: Random()
+기능: OnBnClickedBtnLoad()에서 호출된 함수로 create 클릭한 만큼 숫자를 불러와 저장된 숫자만큼 랜덤 숫자를 반환하는 함수
+*함수이름: Load()
+기능: OnBnClickedBtnLoad()에서 호출된 함수로 숫자를 받아 해당하는 숫자의 이미지 파일을 불러오는 함수
+*함수이름: GetPoint()
+기능: OnBnClickedBtnLoad()에서 호출된 함수로 원의 좌표를 찾아 콘솔 창에 출력하는 함수
+
+*함수이름: UpdataDisplay()
+기능: 윈도우 이미지에 출력하는 함수
